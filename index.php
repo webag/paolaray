@@ -33,7 +33,7 @@
 
 			<form class="ajax-form">
 				<input type="hidden" value="Paola Ray заглушка" name="form_subject">
-				<input type="hidden" value="<?=$_SERVER['SERVER_ADDR']?>" name="IP">
+				<input type="hidden" value="<?=$_SERVER['REMOTE_ADDR']?>" name="IP">
 				<div class="form-row">
 					<label class="input">
 						<input type="text" name="user_name" data-label="Имя" class="input__text" data-req="true" autocomplete="off">
