@@ -21,8 +21,8 @@
 	<!-- favicons -->
 
 	<!-- og -->
-	<meta property="og:title" content="Шаблон проекта">
-	<meta property="og:description" content="Описание проекта">
+	<meta property="og:title" content="Paola Ray">
+	<meta property="og:description" content="Бренд модной женской одежды">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="/img/og.jpg">
 	<!-- og -->
