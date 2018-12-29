@@ -4,6 +4,38 @@
 	max-width: 100%;
 	will-change: transform, opacity;
 	overflow: visible !important;
+	color: #000;
+	@include res(s){
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	&--text{
+		width: 900px;
+
+		p{
+			margin-bottom: 10px;
+		}
+
+		ul{
+			margin-bottom: 10px;
+			padding-left: 20px;
+
+			li{
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+	&__title{
+		font-weight: 500;
+		font-size: 24px;
+		text-transform: uppercase;
+		@include res(s){
+			font-size: 16px;
+			padding-right: 30px;
+		}
+	}
 }
 
 .fancybox-slide--current {
@@ -33,4 +65,11 @@
 
 .fancybox-slide--iframe {
 	padding: 40px 18px;
+}
+
+.fancybox-slide--html{
+	padding: 20px;
+	@include res(s){
+		padding: 8px;
+	}
 }

@@ -9,9 +9,9 @@ $full_cross_size: 36px;
 $cross_size: 20px;
 $cross_weight: 2px;
 $cross_color: #FFF;
-$cross-color--hover: #000;
-$cross-bg-color: #000;
-$cross-bg-color--hover: #fffb42;
+$cross-color--hover: #FFF;
+$cross-bg-color: #010215;
+$cross-bg-color--hover: #ec5068;
 
 @mixin cross() {
 	position: absolute;
