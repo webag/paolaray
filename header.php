@@ -24,7 +24,7 @@
 	<meta property="og:title" content="Paola Ray">
 	<meta property="og:description" content="Бренд модной женской одежды">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="/img/og.jpg">
+	<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?>/img/og.jpg">
 	<!-- og -->
 
 	<link href="/css/main.css" rel="stylesheet">
