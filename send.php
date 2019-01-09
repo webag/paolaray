@@ -39,6 +39,7 @@ try {
 	$mail->CharSet = 'utf-8';
 	$mail->setFrom('no-reply@paolaray.ru', 'Paola Ray');
 	$mail->addAddress('andreiduffy@gmail.com');
+	$mail->addAddress('info@paolaray.ru');
 	$mail->isHTML(true);
 	$mail->Subject = $subject;
 	$mail->Body = $message;
