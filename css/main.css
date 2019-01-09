@@ -1579,8 +1579,8 @@ body {
 }
 
 .form-block:hover .form-block__border img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(2) rotate(10deg);
+  transform: scale(2) rotate(10deg);
 }
 
 .form-block__title {
@@ -1626,7 +1626,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  transition: all 2s ease;
+  transition: all 3s ease;
 }
 
 body.ie .form-block__border {
