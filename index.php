@@ -21,7 +21,6 @@
 
 	var version = detectIE();
 	var pageElement = document.querySelector('body');
-	console.log(pageElement);
 
 	if (version === false) {
 
