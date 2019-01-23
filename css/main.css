@@ -1480,6 +1480,42 @@ body {
   }
 }
 
+.soon {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "MetaSerifPro", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 30px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 680px) {
+  .soon {
+    font-size: 20px;
+  }
+}
+
+.soon:before, .soon:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #FFF;
+  display: block;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: 0 10px;
+}
+
 .counter {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1706,22 +1742,67 @@ body.ie .form-block__border img {
   color: #FFF;
 }
 
-.page-footer__docs {
-  margin-top: 20px;
+.footer-row {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
-.page-footer__docs a {
-  margin-right: 20px;
-  margin-bottom: 10px;
+@media (max-width: 680px) {
+  .footer-row {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+.footer-block {
+  padding: 0 10px;
+  max-width: 390px;
+}
+
+@media (max-width: 680px) {
+  .footer-block {
+    margin-bottom: 10px;
+  }
+}
+
+.socials {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.socials a {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  opacity: 1;
 }
 
 .page-thanks {

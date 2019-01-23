@@ -39,7 +39,7 @@
 			<h1 class="logo__descr">Бренд модной женской одежды</h1>
 		</div>
 
-		<div class="counter">
+		<!--<div class="counter">
 			<div class="counter__item">
 				<strong class="js-days">00</strong>
 				<small>дней</small>
@@ -56,7 +56,9 @@
 				<strong class="js-seconds">00</strong>
 				<small>секунд</small>
 			</div>
-		</div>
+		</div>-->
+
+		<div class="soon">Скоро открытие</div>
 
 
 		<div class="form-block">
@@ -96,10 +98,28 @@
 
 
 		<footer class="page-footer">
-			<div class="page-note">Организатор акции ООО «ЛУЧ», ИНН: 7706451329, КПП: 770301001, ОГРН: 5177746111186. Акция действует до 27 января 2019 года включительно, объявление победителей с 26 января 2019 года по 27 января 2019 года включительно. Информация об организаторе акции, правилах и условиях её проведения, количестве призов, сроках и порядке получения на сайте paolaray.ru. Количество призов ограничено. <a href="#" data-src="#modal-terms" class="fancy-modal">Полные условия акции</a></div>
-			<div class="page-footer__docs">
-				<a href="#" data-src="#modal-cookies" class="fancy-modal">Использование Cookie файлов</a>
-				<a href="#" data-src="#modal-policy" class="fancy-modal">Политика конфиденциальности, обработки персональных данных и согласие на получение рекламных материалов</a>
+			<div class="page-note">Организатор акции АО «СТОКМАНН». Действует до 1 марта включительно. Объявление победителей с 25 февраля 2019 года по 01 марта 2019 года включительно. Информация об организаторе акции, правилах и условиях её проведения, количестве призов, сроках и порядке получения на сайте paolaray.ru. Количество призов ограничено.</div>
+			<div class="footer-row">
+				<div class="footer-block">
+					<p>Все права защищены, 2019</p>
+					<a href="#" data-src="#modal-terms" class="fancy-modal">Полные условия акции</a>
+				</div>
+				<div class="footer-block">
+					<a href="#" data-src="#modal-policy" class="fancy-modal">Политика конфиденциальности, обработки персональных данных и согласие на получение рекламных материалов</a>
+				</div>
+				<div class="footer-block">
+					<div class="socials">
+						<a href="#" target="_blank">
+							<img src="/img/insta.png" alt="insta">
+						</a>
+						<a href="#" target="_blank">
+							<img src="/img/vk.png" alt="vk">
+						</a>
+						<a href="#" target="_blank">
+							<img src="/img/facebook.png" alt="facebook">
+						</a>
+					</div>
+				</div>
 			</div>
 		</footer>
 

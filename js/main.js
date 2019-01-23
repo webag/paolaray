@@ -66,6 +66,7 @@ $(function () {
 				success: (function (result) {
 					console.log(result);
 					$.fancybox.close();
+					ym(52038135, 'reachGoal', 'order');
 					if (result.indexOf("Mail FAIL") !== -1) {
 						$.fancybox.open({src: '#modal-error'});
 					} else {

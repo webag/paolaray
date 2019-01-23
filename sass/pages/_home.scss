@@ -52,6 +52,35 @@ body {
 }
 
 
+//soon
+.soon{
+	position: relative;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: $font-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	@include res(s){
+		font-size: 20px;
+	}
+
+	&:before,&:after{
+		content: '';
+		width: 8px;
+		height: 8px;
+		background: #FFF;
+		display: block;
+		transform: rotate(45deg);
+		margin: 0 10px;
+	}
+}
+//soon
+
+
 //counter
 .counter{
 	display: flex;
@@ -239,16 +268,43 @@ body.ie{
 			color: #FFF;
 		}
 	}
+}
 
-	&__docs{
-		margin-top: 20px;
+.footer-row{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-left: -10px;
+	margin-right: -10px;
+	@include res(s){
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.footer-block{
+	padding: 0 10px;
+	max-width: 390px;
+	@include res(s){
+		margin-bottom: 10px;
+	}
+}
+
+.socials{
+	display: flex;
+	align-items: center;
+
+	a{
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+		opacity: 0.4;
+		transition: all 0.3s ease;
 
-		a{
-			margin-right: 20px;
-			margin-bottom: 10px;
+		&:hover{
+			opacity: 1;
 		}
 	}
 }
