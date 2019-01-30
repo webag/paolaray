@@ -1746,9 +1746,9 @@ body.ie .form-block__border img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   margin-top: 20px;
   margin-left: -10px;
   margin-right: -10px;
@@ -1803,6 +1803,62 @@ body.ie .form-block__border img {
 
 .socials a:hover {
   opacity: 1;
+}
+
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+@media (max-width: 680px) {
+  .row {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+.row .grid-7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: calc(100% / 12 * 7);
+}
+
+@media (max-width: 680px) {
+  .row .grid-7 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 100%;
+  }
+}
+
+.row .grid-5 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: calc(100% / 12 * 5);
+}
+
+@media (max-width: 680px) {
+  .row .grid-5 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+  }
+}
+
+.row .shok {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-thanks {

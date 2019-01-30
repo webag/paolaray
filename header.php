@@ -27,7 +27,7 @@
 	<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?>/img/og.jpg">
 	<!-- og -->
 
-	<link href="/css/main.css?v=3" rel="stylesheet">
+	<link href="/css/main.css?v=4" rel="stylesheet">
 </head>
 
 <body>

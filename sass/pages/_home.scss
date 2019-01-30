@@ -272,7 +272,7 @@ body.ie{
 
 .footer-row{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-top: 20px;
 	margin-left: -10px;
 	margin-right: -10px;
@@ -306,6 +306,41 @@ body.ie{
 		&:hover{
 			opacity: 1;
 		}
+	}
+}
+
+.row{
+	display: flex;
+	padding-top: 20px;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
+	.grid-7{
+		flex-shrink: 0;
+		width: calc(100% / 12 * 7);
+		@include res(s){
+			order: 2;
+			width: 100%;
+		}
+	}
+
+	.grid-5{
+		flex-shrink: 0;
+		width: calc(100% / 12 * 5);
+		@include res(s){
+			order: 1;
+			width: 100%;
+		}
+	}
+
+	.shok{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin-top: -50px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 //page-footer

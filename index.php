@@ -96,30 +96,38 @@
 		</div>
 
 
-		<footer class="page-footer">
-			<div class="page-note">Организатор акции АО «СТОКМАНН». Действует до 1 марта включительно. Объявление победителей с 25 февраля 2019 года по 01 марта 2019 года включительно. Информация об организаторе акции, правилах и условиях её проведения, количестве призов, сроках и порядке получения на сайте paolaray.ru. Количество призов ограничено.</div>
-			<div class="footer-row">
-				<div class="footer-block">
-					<p>Все права защищены, 2019</p>
-					<a href="#" data-src="#modal-terms" class="fancy-modal">Полные условия акции</a>
+		<footer class="page-footer row">
+			<div class="grid-7">
+				<div class="page-note">Организатор акции АО «СТОКМАНН». Действует до 1 марта включительно. Объявление победителей с 25 февраля 2019 года по 01 марта 2019 года включительно. Информация об организаторе акции, правилах и условиях её проведения, количестве призов, сроках и порядке получения на сайте paolaray.ru. Количество призов ограничено.</div>
+				<div class="footer-row">
+					<div class="footer-block">
+						<p>Все права защищены, 2019</p>
+						<a href="#" data-src="#modal-terms" class="fancy-modal">Полные условия акции</a>
+					</div>
+					<div class="footer-block">
+						<div class="socials">
+							<a href="#" target="_blank">
+								<img src="/img/insta.png" alt="insta">
+							</a>
+							<a href="#" target="_blank">
+								<img src="/img/vk.png" alt="vk">
+							</a>
+							<a href="#" target="_blank">
+								<img src="/img/facebook.png" alt="facebook">
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="footer-block">
-					<a href="#" data-src="#modal-policy" class="fancy-modal">Политика конфиденциальности, обработки персональных данных и согласие на получение рекламных материалов</a>
-				</div>
-				<div class="footer-block">
-					<div class="socials">
-						<a href="#" target="_blank">
-							<img src="/img/insta.png" alt="insta">
-						</a>
-						<a href="#" target="_blank">
-							<img src="/img/vk.png" alt="vk">
-						</a>
-						<a href="#" target="_blank">
-							<img src="/img/facebook.png" alt="facebook">
-						</a>
+				<div class="footer-row">
+					<div class="footer-block">
+						<a href="#" data-src="#modal-policy" class="fancy-modal">Политика конфиденциальности, обработки персональных данных и согласие на получение рекламных материалов</a>
 					</div>
 				</div>
 			</div>
+			<div class="grid-5">
+				<img src="/img/shok.png" alt="Шоколадка" class="shok">
+			</div>
+
 		</footer>
 
 	</div>
